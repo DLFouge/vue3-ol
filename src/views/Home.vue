@@ -170,6 +170,7 @@ import { addHbPbf, clearHbPbf } from '@/components/AddPbf'
 import Animate from '@/components/animate/Animate.vue'
 import {addDynamicLayerToMap,addAnimateFeature} from '@/components/WaterRipple'
 
+
 export default defineComponent({
     components:{
         timeline,
@@ -714,8 +715,9 @@ export default defineComponent({
 }
 .terminatorBtn{
     position: absolute;
-    top: 250px;
-    left: 0px;
+    /* top: 250px; */
+    top: 200px;
+    left: 10px;
     padding: 2 10px;
 }
 .popupBtn{
@@ -726,13 +728,15 @@ export default defineComponent({
 }
 .gifBtn{
     position: absolute;
-    top: 350px;
+    /* top: 350px; */
+    top: 250px;
     left: 0px;
     padding: 2 10px;
 }
 .gifsBtn{
     position: absolute;
-    top: 400px;
+    /* top: 400px; */
+    top: 300px;
     left: 10px;
     padding: 2 10px;
 }
@@ -744,8 +748,9 @@ export default defineComponent({
 }
 .animateBtn{
     position: absolute;
-    top: 500px;
-    left: 0px;
+    /* top: 500px; */
+    top: 350px;
+    left: 10px;
     padding: 2 10px;
 }
 .swipeBtn1{

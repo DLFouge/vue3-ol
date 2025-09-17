@@ -10,7 +10,7 @@ import GeoImageLayer from 'ol-ext/layer/GeoImage'
 import GeoImageSource from 'ol-ext/source/GeoImage'
 import { boundingExtent, getCenter } from 'ol/extent'
 
-let imgUrl = '/src/assets/4.png';
+let imgUrl = '/src/assets/6.png';
 
 //获取图片像素
 const getImageXY = (callback:any) => {
